@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'dosisregular';
+    src: url('../fonts/dosis/dosis-regular-webfont.woff2') format('woff2'),
+         url('../onts/dosisregular/dosis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    font-family: 'dosisregular';
+}
+.banner{
+	width: 928px;
+	height: 90px;
+	border-radius: 5px;
+    padding: 10px;
+    background: #1e5799;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,#1e5799 0%,#d3dde5 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#1e5799),color-stop(100%,#d3dde5));
+    background: -webkit-linear-gradient(top,#1e5799 0%,#d3dde5 100%);
+    background: -o-linear-gradient(top,#1e5799 0%,#d3dde5 100%);
+    background: -ms-linear-gradient(top,#1e5799 0%,#d3dde5 100%);
+    background: linear-gradient(to bottom,#1e5799 0%,#d3dde5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799',endColorstr='#d3dde5',GradientType=0 );
+    background-image: url(../imgs/back-search.jpg);
+    background-size: cover;
+    background-position: 0px -240px;
+}
+.banner .form-inline .select2{
+    width: 130px!important;
+}
+.btn-voopter{
+ 	background-color: #ffcc00;
+    min-width: 150px;
+    height: 70px;
+    color: #555;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    font-size: 12px;
+}
+.icon-search{
+	display: block;
+    font-size: 20px;
+    margin-bottom: 3px
+}
+form label{
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-size: 12px;    
+}
+.people{
+    margin-right: 20px;
+}
+.radio{
+    margin-right: 10px;
+}

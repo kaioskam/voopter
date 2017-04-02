@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<title>VOOPTER</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap-toggle.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="banner center-block">
+		<div class="row">
+			<div class="col-xs-2">
+				<img src="imgs/logo-voopter.png" class="logo img-responsive" width="100">		
+			</div>
+			
+			<div class="col-xs-10">
+				<form id="searchTrip" class="form-inline">
+					<div class="row">
+					<div class="col-xs-9">
+						<div class="form-group">
+					    	<label>ORIGEM</label>
+					    	<select class="js-example-basic-multiple origin">
+					    		<option value=""></option>
+								<option value="sao-paulo">
+									São Paulo - Congonhas (CGH), Brasil
+								</option>
+								<option value="rio-de-janeiro">
+									Rio de Janeiro - Galeão (GIG), Brasil
+								</option>
+								<option value="curitiba">
+									Curitiba - Afonso Pena (CWB), Brasil
+								</option>
+							</select>
+					  	</div>
+					  	<div class="form-group">
+					  		<label>DESTINO</label>
+						    <select class="js-example-basic-multiple destiny">
+						    	<option value=""></option>
+								<option value="sao-paulo">
+									São Paulo - Congonhas (CGH), Brasil
+								</option>
+								<option value="rio-de-janeiro">
+									Rio de Janeiro - Galeão (GIG), Brasil
+								</option>
+								<option value="curitiba">
+									Curitiba - Afonso Pena (CWB), Brasil
+								</option>
+							</select>
+					  	</div>
+					  	<div class="form-group">
+					  		<label>IDA</label>
+					  		<input type="text" class="daytrip">
+						    
+					  	</div>
+					  	<div class="form-group">
+					  		<label>VOLTA</label>
+					  		<input type="text" class="tripback">
+					  	</div>
+					  	<div class="form-group">
+					  		<div class="checkbox disabled people">
+								<label>
+							    	<input type="checkbox" value="" checked="checked" disabled>
+							    	1 adulto
+							  	</label>
+							</div>
+					  		<div class="radio">
+								<label>
+							    	<input type="radio" name="typeTripSelector" value="01" checked>
+							    	ida e volta
+							  	</label>
+							</div>
+							<div class="radio">
+								<label>
+							    	<input type="radio" name="typeTripSelector" value="02">
+							    	só ida
+							  	</label>
+							</div>
+					  	</div>
+				  	</div>
+				  	<div class="col-xs-3">
+					  	<button type="submit" class="btn btn-voopter pull-right">
+							<span class="icon-search">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</span>
+					  		BUSCAR PASSAGENS
+					  	</button>
+				  	</div>
+				  	</div>
+				</form>
+			</div>
+		</div>
+	</div>			
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap-toggle.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/regional.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
